@@ -1,6 +1,11 @@
 # Lab 05 - Stylization!
 Let's practice adding stylization to a 3D scene using Unity's shader graph!
 
+## Result
+![](ball.png)
+![](sonic0.png)
+![](sonic1.png)
+
 ## Introduction
 We will be stylizing a "toon" look by creating a shader in Unity that supports shadows and multiple lights in real-time! In the process, you will gain some familiarity with Unity’s shader graph.
 
@@ -8,7 +13,7 @@ We will be stylizing a "toon" look by creating a shader in Unity that supports s
 This tutorial video will cover the base code, and then go over the process of making a limited version of a toon shader.
 
 [Lab Overview and Puzzle 1 Tutorial Video](https://youtu.be/jc5MLgzJong)
-         
+
 ## Lab Puzzles:
 The goal of each puzzle will be to replicate the look of each puzzle’s image.
 
@@ -32,7 +37,7 @@ The goal of each puzzle will be to replicate the look of each puzzle’s image.
 
    * Use one of the provided texture png’s in order to add a screenspace shadow pattern onto the shadows of the scene!
    * Hint 1: What does the "ShadowAttenuation" variable do?
-  
+
 Extra Credit:
  * Add some soft interpolation at the edges of your bands, for smooth transitions between color bands. Create a "smoothness" parameter that adjusts the degree of smoothness!
 
